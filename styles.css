@@ -1,0 +1,118 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 10%;
+}
+
+/* Header styles */
+header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.8em;
+    color: #61dafb;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #61dafb;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #61dafb;
+    color: #282c34;
+}
+
+/* Profile section styles */
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #61dafb;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Information styles */
+.contact-info {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.contact-info a {
+    color: #61dafb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #282c34;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 0 5%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
